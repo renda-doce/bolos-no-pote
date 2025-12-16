@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábrica de Bolos no Pote - Transforme 2025 em Seu Ano de Renda Extra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
+            }
+
+            50% {
+                box-shadow: 0 0 40px rgba(251, 191, 36, 0.8);
+            }
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .animate-pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        .gradient-animate {
+            background-size: 200% 200%;
+            animation: gradient-shift 3s ease infinite;
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+
+    <!-- Hero Section -->
+    <div class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute top-20 left-10 w-72 h-72 bg-yellow-500 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl animate-float"
+                style="animation-delay: 1s;"></div>
+        </div>
+
+        <div class="container mx-auto px-4 py-12 relative z-10">
+            <div class="text-center mb-12">
+                <!-- Countdown Timer -->
+                <div class="inline-block glass-effect rounded-2xl px-8 py-4 mb-8 animate-pulse-glow">
+                    <p class="text-sm uppercase tracking-wider mb-2">⚡ PROMOÇÃO TERMINA EM</p>
+                    <div id="countdown" class="text-3xl font-bold text-yellow-400"></div>
+                </div>
+
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                    <span class="block">2025 Chegou!</span>
+                    <span class="block text-gradient">Sua Renda Extra Também!</span>
+                </h1>
+
+                <p class="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto">
+                    Cansada de depender de um único salário? Transforme sua cozinha em uma
+                    <span class="text-yellow-400 font-bold">máquina de fazer dinheiro</span> com bolos no pote!
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                    <a href="https://go.hotmart.com/I88949011H?ap=ff80"
+                        class="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
+                        🚀 QUERO FATURAR AGORA
+                    </a>
+                    <a href="#video"
+                        class="glass-effect px-10 py-5 rounded-full text-xl font-bold hover:bg-white/20 transition-all">
+                        ▶️ Ver Como Funciona
+                    </a>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-8 text-center">
+                    <div class="glass-effect rounded-xl p-6 hover-lift">
+                        <p class="text-4xl font-bold text-yellow-400">8K+</p>
+                        <p class="text-sm text-gray-300">Alunas Formadas</p>
+                    </div>
+                    <div class="glass-effect rounded-xl p-6 hover-lift">
+                        <p class="text-4xl font-bold text-yellow-400">R$ 3-7K</p>
+                        <p class="text-sm text-gray-300">Faturamento/Mês</p>
+                    </div>
+                    <div class="glass-effect rounded-xl p-6 hover-lift">
+                        <p class="text-4xl font-bold text-yellow-400">7 Dias</p>
+                        <p class="text-sm text-gray-300">Garantia Total</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pain Points Section -->
+    <div class="py-20 bg-gradient-to-b from-gray-900 to-red-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                Você Está Cansada de...
+            </h2>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                    <div class="text-4xl mb-4">😰</div>
+                    <h3 class="text-2xl font-bold mb-3">Depender do Salário do Fim do Mês</h3>
+                    <p class="text-gray-300">O dinheiro nunca sobra, sempre falta. Contas atrasadas, ansiedade
+                        financeira constante...</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                    <div class="text-4xl mb-4">😔</div>
+                    <h3 class="text-2xl font-bold mb-3">Ver as Amigas Prosperando</h3>
+                    <p class="text-gray-300">Enquanto você fica estagnada, outras já estão faturando alto com
+                        confeitaria...</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                    <div class="text-4xl mb-4">😓</div>
+                    <h3 class="text-2xl font-bold mb-3">Ficar Longe dos Seus Filhos</h3>
+                    <p class="text-gray-300">Horas e horas fora de casa só para ganhar pouco. Perdendo os momentos
+                        importantes...</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                    <div class="text-4xl mb-4">😤</div>
+                    <h3 class="text-2xl font-bold mb-3">Não Ter Tempo Livre</h3>
+                    <p class="text-gray-300">Sua vida é trabalho-casa-trabalho. Nada de tempo para você, seus sonhos,
+                        sua família...</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-16">
+                <p class="text-3xl font-bold mb-6">É HORA DE MUDAR ESSA HISTÓRIA!</p>
+                <a href="https://go.hotmart.com/I88949011H?ap=ff80"
+                    class="inline-block bg-gradient-to-r from-green-400 to-emerald-600 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl">
+                    💰 COMEÇAR MINHA TRANSFORMAÇÃO
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Section -->
+    <div id="video" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">
+                Veja Como Você Pode <span class="text-gradient">Mudar de Vida</span>
+            </h2>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-effect rounded-3xl p-4 shadow-2xl">
+                    <!-- Substitua o src abaixo pelo link real do vídeo -->
+                    <div class="aspect-video bg-black rounded-2xl flex items-center justify-center">
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Op1rMjA_Vps?si=VGexuDk2dhnj4n0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                        <iframe class="w-full h-full rounded-2xl"
+                            src="https://www.youtube.com/embed/Op1rMjA_Vps?si=VGexuDk2dhnj4n0g" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="text-center mt-8">
+                    <a href="https://go.hotmart.com/I88949011H?ap=ff80"
+                        class="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
+                        🎯 SIM! QUERO APRENDER AGORA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <div class="py-20 bg-gradient-to-b from-gray-900 to-purple-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-6">
+                O Que Você Vai <span class="text-gradient">Aprender</span>
+            </h2>
+            <p class="text-xl text-center text-gray-300 mb-16 max-w-3xl mx-auto">
+                Tudo que você precisa para começar a faturar ainda esta semana!
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">🎂</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Receitas Campeãs</h3>
+                    <p class="text-gray-300">As melhores massas e recheios que vendem TODOS OS DIAS. Receitas testadas e
+                        aprovadas por milhares de alunas!</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">💎</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Técnicas Profissionais</h3>
+                    <p class="text-gray-300">Aprenda os segredos da Chef Ísis Alvarez, formada em Paris com mais de 20
+                        anos de experiência!</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">💰</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Como Precificar</h3>
+                    <p class="text-gray-300">Nunca mais venda barato! Aprenda a calcular seus lucros e cobrar o valor
+                        JUSTO pelos seus bolos.</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">📱</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Marketing Digital</h3>
+                    <p class="text-gray-300">Como vender pelo Instagram, Facebook e WhatsApp. Atraia clientes que PAGAM
+                        BEM!</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">📦</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Conservação e Validade</h3>
+                    <p class="text-gray-300">Todos os segredos para seus bolos durarem mais e conquistarem seus
+                        clientes!</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
+                    <div class="text-5xl mb-4">🏆</div>
+                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Certificado Oficial</h3>
+                    <p class="text-gray-300">Certificado assinado pela Chef Ísis Alvarez para valorizar seu trabalho!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Social Proof -->
+    <div class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
+                Elas Já Estão <span class="text-gradient">Faturando Alto!</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="glass-effect rounded-2xl p-8 hover-lift">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl">👩
+                        </div>
+                        <div class="ml-4">
+                            <p class="font-bold">Cecília Santos</p>
+                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Estava com medo de começar, mas com o curso da Chef Ísis tudo ficou
+                        fácil! Já estou vendendo muito e todos amam!"</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl">👩
+                        </div>
+                        <div class="ml-4">
+                            <p class="font-bold">Maria Silva</p>
+                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Saí do zero e agora fecho R$ 5 mil por mês! Trabalho de casa e fico
+                        com meus filhos. Mudou minha vida!"</p>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl">👩
+                        </div>
+                        <div class="ml-4">
+                            <p class="font-bold">Ana Costa</p>
+                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 italic">"Nunca tinha feito bolo na vida. Em 30 dias já estava vendendo e
+                        lucrando. Curso completo e muito fácil!"</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <p class="text-2xl font-bold mb-6">Você Pode Ser a Próxima História de Sucesso!</p>
+                <a href="https://go.hotmart.com/I88949011H?ap=ff80"
+                    class="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl">
+                    ✨ GARANTIR MINHA VAGA AGORA
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bonus Section -->
+    <div class="py-20 bg-gradient-to-b from-purple-900 to-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    <span class="text-gradient">BÔNUS EXCLUSIVOS</span> Para Quem Age Agora!
+                </h2>
+                <p class="text-xl text-gray-300">Acelere ainda mais seus resultados com esses presentes especiais</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">🎁</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Apostila Completa em PDF</h3>
+                        <p class="text-gray-300">Todas as receitas organizadas para você imprimir e ter sempre à mão</p>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">💪</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Bolos Fitness Lucrativos</h3>
+                        <p class="text-gray-300">Receitas fit para conquistar o público das academias e aumentar seu
+                            faturamento</p>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">🍨</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Apostila Copos da Felicidade</h3>
+                        <p class="text-gray-300">Diversifique seu cardápio e venda MUITO MAIS com essas delícias</p>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">🚀</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Confeiteira Empreendedora</h3>
+                        <p class="text-gray-300">Aprenda a montar e gerenciar seu negócio de confeitaria do zero</p>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">📱</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Suporte via WhatsApp</h3>
+                        <p class="text-gray-300">Tire suas dúvidas diretamente com a Chef Ísis Alvarez!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guarantee Section -->
+    <div class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-effect rounded-3xl p-12 text-center hover-lift border-4 border-green-500">
+                    <div class="text-7xl mb-6">🛡️</div>
+                    <h2 class="text-4xl font-bold mb-6">GARANTIA BLINDADA DE 7 DIAS</h2>
+                    <p class="text-xl text-gray-300 mb-8">
+                        Você tem <span class="text-yellow-400 font-bold">7 dias completos</span> para testar o curso.
+                        Se não gostar, devolvemos <span class="text-green-400 font-bold">100% do seu dinheiro</span> sem
+                        perguntas!
+                    </p>
+                    <p class="text-2xl font-bold text-yellow-400">O risco é TODO NOSSO!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final CTA -->
+    <div class="py-20 bg-gradient-to-b from-gray-900 to-yellow-900">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl md:text-6xl font-bold mb-8">
+                    2025 É O SEU ANO! <br />
+                    <span class="text-gradient">COMECE HOJE!</span>
+                </h2>
+
+                <div class="glass-effect rounded-3xl p-12 mb-12">
+                    <p class="text-3xl font-bold mb-4">De R$ 127,00 por apenas:</p>
+                    <p class="text-6xl md:text-7xl font-extrabold text-yellow-400 mb-4">R$ 67,00</p>
+                    <p class="text-xl text-gray-300 mb-8">Ou parcele no cartão em até 12x</p>
+
+                    <a href="https://go.hotmart.com/I88949011H?ap=ff80"
+                        class="inline-block bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-gray-900 px-16 py-8 rounded-full text-3xl font-bold hover:scale-110 transform transition-all shadow-2xl animate-pulse-glow gradient-animate mb-8">
+                        🔥 GARANTIR MINHA VAGA COM DESCONTO
+                    </a>
+
+                    <div class="space-y-4 text-lg text-gray-300">
+                        <p>✅ Acesso Imediato após confirmação do pagamento</p>
+                        <p>✅ Suporte via WhatsApp com a Chef Ísis</p>
+                        <p>✅ Certificado de Conclusão</p>
+                        <p>✅ Todos os Bônus Inclusos</p>
+                        <p>✅ Garantia de 7 Dias</p>
+                        <p>✅ Acesso Vitalício</p>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 mb-8">
+                    <p class="text-2xl font-bold mb-4">⚠️ ATENÇÃO: VAGAS LIMITADAS!</p>
+                    <p class="text-xl text-gray-300">
+                        Esse preço especial é válido apenas para as primeiras <span
+                            class="text-yellow-400 font-bold">100 alunas</span> que se inscreverem hoje!
+                    </p>
+                </div>
+
+                <p class="text-gray-400 text-sm">
+                    Pagamento 100% seguro processado pela Hotmart | Ambiente protegido com certificado SSL
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="py-12 bg-black">
+        <div class="container mx-auto px-4 text-center text-gray-400">
+            <p class="mb-4">© 2025 Chef Ísis Alvarez - Todos os direitos reservados</p>
+            <p class="text-sm">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</p>
+        </div>
+    </div>
+
+    <script>
+        // Countdown Timer
+        function updateCountdown() {
+            const now = new Date();
+            const midnight = new Date();
+            midnight.setHours(24, 0, 0, 0);
+
+            const diff = midnight - now;
+
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerHTML =
+                `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
