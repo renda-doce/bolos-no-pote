@@ -9,6 +9,174 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
+        /* ============================================
+           INSTRUÇÕES PARA MUDAR O TEMA:
+           ============================================
+           
+           1. Escolha um dos temas abaixo
+           2. Copie o bloco :root do tema escolhido
+           3. Cole substituindo o bloco :root atual
+           4. Salve e recarregue a página
+           
+           TEMAS DISPONÍVEIS:
+           - TEMA 1: Dourado Luxo (tema padrão - escuro com dourado/laranja)
+           - TEMA 2: Rosa Empoderamento (claro com rosa/coral vibrante)
+           - TEMA 3: Verde Prosperidade (claro com verde/esmeralda)
+           - TEMA 4: Azul Confiança (claro com azul/turquesa)
+           
+           ============================================ */
+
+        /* ==========================================
+           TEMA 1: DOURADO LUXO (PADRÃO - ESCURO)
+           Transmite: Luxo, exclusividade, urgência
+           ========================================== */
+        :root {
+            
+            --color-primary: #fbbf24;
+            --color-primary-dark: #f59e0b;
+            --color-secondary: #a855f7;
+            --color-accent: #10b981;
+            --color-accent-dark: #059669;
+
+            
+            --color-bg-dark: #111827;
+            --color-bg-darker: #0f172a;
+            --color-bg-purple: #581c87;
+            --color-bg-red: #7f1d1d;
+            --color-bg-yellow: #78350f;
+
+            
+            --color-text-light: #e5e7eb;
+            --color-text-lighter: #d1d5db;
+            --color-text-dark: #111827;
+
+            
+            --color-danger: #ef4444;
+            --color-success: #10b981;
+            --color-warning: #f59e0b;
+
+            
+            --color-cta-from: #fbbf24;
+            --color-cta-via: #f97316;
+            --color-cta-to: #ef4444;
+
+            
+            --opacity-glass: 0.1;
+            --opacity-glass-border: 0.2;
+            --opacity-overlay: 0.2;
+        }
+
+        /* ==========================================
+           TEMA 2: ROSA EMPODERAMENTO (CLARO)
+           Transmite: Empoderamento feminino, confiança, energia
+           Descomente o bloco abaixo para usar este tema
+           ========================================== */
+        
+        /* :root {
+            --color-primary: #ec4899;
+            --color-primary-dark: #db2777;
+            --color-secondary: #f97316;
+            --color-accent: #8b5cf6;
+            --color-accent-dark: #7c3aed;
+            
+            --color-bg-dark: #fff1f2;
+            --color-bg-darker: #ffe4e6;
+            --color-bg-purple: #fae8ff;
+            --color-bg-red: #fee2e2;
+            --color-bg-yellow: #ffedd5;
+            
+            --color-text-light: #881337;
+            --color-text-lighter: #9f1239;
+            --color-text-dark: #fafaf9;
+            
+            --color-danger: #dc2626;
+            --color-success: #059669;
+            --color-warning: #ea580c;
+            
+            --color-cta-from: #ec4899;
+            --color-cta-via: #f97316;
+            --color-cta-to: #dc2626;
+            
+            --opacity-glass: 0.5;
+            --opacity-glass-border: 0.3;
+            --opacity-overlay: 0.15;
+        } */
+       
+
+        /* ==========================================
+           TEMA 3: VERDE PROSPERIDADE (CLARO)
+           Transmite: Crescimento, dinheiro, prosperidade, natureza
+           Descomente o bloco abaixo para usar este tema
+           ========================================== */
+        
+        /* :root {
+            --color-primary: #059669;
+            --color-primary-dark: #047857;
+            --color-secondary: #0891b2;
+            --color-accent: #eab308;
+            --color-accent-dark: #ca8a04;
+            
+            --color-bg-dark: #ecfdf5;
+            --color-bg-darker: #d1fae5;
+            --color-bg-purple: #cffafe;
+            --color-bg-red: #fef3c7;
+            --color-bg-yellow: #fef9c3;
+            
+            --color-text-light: #064e3b;
+            --color-text-lighter: #065f46;
+            --color-text-dark: #fafaf9;
+            
+            --color-danger: #dc2626;
+            --color-success: #16a34a;
+            --color-warning: #ea580c;
+            
+            --color-cta-from: #10b981;
+            --color-cta-via: #059669;
+            --color-cta-to: #047857;
+            
+            --opacity-glass: 0.5;
+            --opacity-glass-border: 0.3;
+            --opacity-overlay: 0.15;
+        } */
+       
+
+        /* ==========================================
+           TEMA 4: AZUL CONFIANÇA (CLARO)
+           Transmite: Confiança, profissionalismo, segurança, credibilidade
+           Descomente o bloco abaixo para usar este tema
+           ========================================== */
+        /*
+        :root {
+            --color-primary: #3b82f6;
+            --color-primary-dark: #2563eb;
+            --color-secondary: #06b6d4;
+            --color-accent: #8b5cf6;
+            --color-accent-dark: #7c3aed;
+            
+            --color-bg-dark: #eff6ff;
+            --color-bg-darker: #dbeafe;
+            --color-bg-purple: #f0f9ff;
+            --color-bg-red: #fef2f2;
+            --color-bg-yellow: #fef3c7;
+            
+            --color-text-light: #1e3a8a;
+            --color-text-lighter: #1e40af;
+            --color-text-dark: #fafaf9;
+            
+            --color-danger: #dc2626;
+            --color-success: #059669;
+            --color-warning: #ea580c;
+            
+            --color-cta-from: #3b82f6;
+            --color-cta-via: #06b6d4;
+            --color-cta-to: #8b5cf6;
+            
+            --opacity-glass: 0.5;
+            --opacity-glass-border: 0.3;
+            --opacity-overlay: 0.15;
+        }
+        */
+
         * {
             font-family: 'Poppins', sans-serif;
         }
@@ -65,13 +233,13 @@
         }
 
         .glass-effect {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, var(--opacity-glass));
             backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, var(--opacity-glass-border));
         }
 
         .text-gradient {
-            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -85,17 +253,94 @@
             transform: translateY(-10px);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
         }
+
+        .bg-gradient-main {
+            background: linear-gradient(to bottom right, var(--color-bg-dark), var(--color-bg-purple), var(--color-bg-dark));
+        }
+
+        .bg-gradient-red {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-red));
+        }
+
+        .bg-gradient-purple {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-purple));
+        }
+
+        .bg-gradient-yellow {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-yellow));
+        }
+
+        .bg-dark {
+            background-color: var(--color-bg-dark);
+        }
+
+        .bg-darker {
+            background-color: var(--color-bg-darker);
+        }
+
+        .text-primary {
+            color: var(--color-primary);
+        }
+
+        .text-light {
+            color: var(--color-text-light);
+        }
+
+        .text-lighter {
+            color: var(--color-text-lighter);
+        }
+
+        .text-dark-theme {
+            color: var(--color-text-dark);
+        }
+
+        .border-danger {
+            border-color: var(--color-danger);
+        }
+
+        .border-success {
+            border-color: var(--color-success);
+        }
+
+        .btn-cta {
+            background: linear-gradient(to right, var(--color-primary), var(--color-cta-via));
+            color: var(--color-text-dark);
+        }
+
+        .btn-cta-success {
+            background: linear-gradient(to right, var(--color-accent), var(--color-accent-dark));
+            color: var(--color-text-dark);
+        }
+
+        .btn-cta-animated {
+            background: linear-gradient(to right, var(--color-cta-from), var(--color-cta-via), var(--color-cta-to));
+            color: var(--color-text-dark);
+        }
+
+        .overlay-primary {
+            background-color: var(--color-primary);
+            opacity: var(--opacity-overlay);
+        }
+
+        .overlay-secondary {
+            background-color: var(--color-secondary);
+            opacity: var(--opacity-overlay);
+        }
+
+        .star-rating {
+            color: var(--color-primary);
+        }
     </style>
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900 text-white">
+<body class="bg-gradient-main text-white">
 
     <!-- Hero Section -->
     <div class="relative min-h-screen flex items-center justify-center overflow-hidden">
         <!-- Animated Background Elements -->
-        <div class="absolute inset-0 opacity-20">
-            <div class="absolute top-20 left-10 w-72 h-72 bg-yellow-500 rounded-full blur-3xl animate-float"></div>
-            <div class="absolute bottom-20 right-10 w-96 h-96 bg-purple-500 rounded-full blur-3xl animate-float"
+        <div class="absolute inset-0" style="opacity: var(--opacity-overlay);">
+            <div class="absolute top-20 left-10 w-72 h-72 rounded-full blur-3xl animate-float overlay-primary"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 rounded-full blur-3xl animate-float overlay-secondary"
                 style="animation-delay: 1s;"></div>
         </div>
 
@@ -104,23 +349,22 @@
                 <!-- Countdown Timer -->
                 <div class="inline-block glass-effect rounded-2xl px-8 py-4 mb-8 animate-pulse-glow">
                     <p class="text-sm uppercase tracking-wider mb-2">⚡ PROMOÇÃO TERMINA EM</p>
-                    <div id="countdown" class="text-2xl font-bold text-yellow-400"></div>
+                    <div id="countdown" class="text-2xl font-bold text-primary"></div>
                 </div>
 
                 <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
                     <span class="block">2026 Chegou!</span>
-                    <span class="block text-gradient">Sua Renda Extra Também!</span>
+                    <span class="block text-gradient">E as oportunidades de mudança também!</span>
                 </h1>
 
-                <p class="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto">
-                    Cansada de depender de um único salário? Transforme sua cozinha em uma
-                    <span class="text-yellow-400 font-bold">máquina de fazer dinheiro</span> com bolos no pote!
+                <p class="text-xl md:text-2xl mb-8 text-light max-w-3xl mx-auto">
+                    Aprenda a transformar sua cozinha em uma <span class="text-primary font-bold">fonte de renda com bolos no pote.</span>
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
                     <a href="https://go.hotmart.com/I88949011H?ap=ff80"
-                        class="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
-                        🚀 QUERO FATURAR AGORA
+                        class="btn-cta px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
+                        🚀 QUERO COMEÇAR AGORA
                     </a>
                     <a href="#video"
                         class="glass-effect px-10 py-5 rounded-full text-xl font-bold hover:bg-white/20 transition-all">
@@ -130,16 +374,16 @@
 
                 <div class="flex flex-wrap justify-center gap-8 text-center">
                     <div class="glass-effect rounded-xl p-6 hover-lift">
-                        <p class="text-4xl font-bold text-yellow-400">80K+</p>
-                        <p class="text-sm text-gray-300">Alunas Formadas</p>
+                        <p class="text-4xl font-bold text-primary">80K+</p>
+                        <p class="text-sm text-light">Alunas Formadas</p>
                     </div>
                     <div class="glass-effect rounded-xl p-6 hover-lift">
-                        <p class="text-4xl font-bold text-yellow-400">R$ 3-7K</p>
-                        <p class="text-sm text-gray-300">Faturamento/Mês</p>
+                        <p class="text-4xl font-bold text-primary">Do primeiro pedido ao faturamento mensal</p>
+                        <p class="text-sm text-light">Faturamento/Mês</p>
                     </div>
                     <div class="glass-effect rounded-xl p-6 hover-lift">
-                        <p class="text-4xl font-bold text-yellow-400">7 Dias</p>
-                        <p class="text-sm text-gray-300">Garantia Total</p>
+                        <p class="text-4xl font-bold text-primary">7 Dias</p>
+                        <p class="text-sm text-light">Garantia Total</p>
                     </div>
                 </div>
             </div>
@@ -147,38 +391,38 @@
     </div>
 
     <!-- Pain Points Section -->
-    <div class="py-20 bg-gradient-to-b from-gray-900 to-red-900">
+    <div class="py-20 bg-gradient-red">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
                 Você Está Cansada de...
             </h2>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-danger">
                     <div class="text-4xl mb-4">😰</div>
                     <h3 class="text-2xl font-bold mb-3">Depender do Salário do Fim do Mês</h3>
-                    <p class="text-gray-300">O dinheiro nunca sobra, sempre falta. Contas atrasadas, ansiedade
+                    <p class="text-light">O dinheiro nunca sobra, sempre falta. Contas atrasadas, ansiedade
                         financeira constante...</p>
                 </div>
 
-                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-danger">
                     <div class="text-4xl mb-4">😔</div>
                     <h3 class="text-2xl font-bold mb-3">Ver as Amigas Prosperando</h3>
-                    <p class="text-gray-300">Enquanto você fica estagnada, outras já estão faturando alto com
+                    <p class="text-light">Enquanto você fica estagnada, outras já estão faturando alto com
                         confeitaria...</p>
                 </div>
 
-                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-danger">
                     <div class="text-4xl mb-4">😓</div>
                     <h3 class="text-2xl font-bold mb-3">Ficar Longe dos Seus Filhos</h3>
-                    <p class="text-gray-300">Horas e horas fora de casa só para ganhar pouco. Perdendo os momentos
+                    <p class="text-light">Horas e horas fora de casa só para ganhar pouco. Perdendo os momentos
                         importantes...</p>
                 </div>
 
-                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-red-500">
+                <div class="glass-effect rounded-2xl p-8 hover-lift border-l-4 border-danger">
                     <div class="text-4xl mb-4">😤</div>
                     <h3 class="text-2xl font-bold mb-3">Não Ter Tempo Livre</h3>
-                    <p class="text-gray-300">Sua vida é trabalho-casa-trabalho. Nada de tempo para você, seus sonhos,
+                    <p class="text-light">Sua vida é trabalho-casa-trabalho. Nada de tempo para você, seus sonhos,
                         sua família...</p>
                 </div>
             </div>
@@ -186,7 +430,7 @@
             <div class="text-center mt-16">
                 <p class="text-3xl font-bold mb-6">É HORA DE MUDAR ESSA HISTÓRIA!</p>
                 <a href="https://go.hotmart.com/I88949011H?ap=ff80"
-                    class="inline-block bg-gradient-to-r from-green-400 to-emerald-600 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl">
+                    class="inline-block btn-cta-success px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl">
                     💰 COMEÇAR MINHA TRANSFORMAÇÃO
                 </a>
             </div>
@@ -194,7 +438,7 @@
     </div>
 
     <!-- Video Section -->
-    <div id="video" class="py-20 bg-gray-900">
+    <div id="video" class="py-20 bg-dark">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-12">
                 Veja Como Você Pode <span class="text-gradient">Mudar de Vida</span>
@@ -202,9 +446,7 @@
 
             <div class="max-w-4xl mx-auto">
                 <div class="glass-effect rounded-3xl p-4 shadow-2xl">
-                    <!-- Substitua o src abaixo pelo link real do vídeo -->
-                    <div class="aspect-video bg-black rounded-2xl flex items-center justify-center">
-                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Op1rMjA_Vps?si=VGexuDk2dhnj4n0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                    <div class="aspect-video bg-darker rounded-2xl flex items-center justify-center">
                         <iframe class="w-full h-full rounded-2xl"
                             src="https://www.youtube.com/embed/Op1rMjA_Vps?si=VGexuDk2dhnj4n0g" frameborder="0"
                             allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -213,7 +455,7 @@
 
                 <div class="text-center mt-8">
                     <a href="https://go.hotmart.com/I88949011H?ap=ff80"
-                        class="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
+                        class="inline-block btn-cta px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-2xl animate-pulse-glow">
                         🎯 SIM! QUERO APRENDER AGORA
                     </a>
                 </div>
@@ -222,48 +464,48 @@
     </div>
 
     <!-- Benefits Section -->
-    <div class="py-20 bg-gradient-to-b from-gray-900 to-purple-900">
+    <div class="py-20 bg-gradient-purple">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-6">
                 O Que Você Vai <span class="text-gradient">Aprender</span>
             </h2>
-            <p class="text-xl text-center text-gray-300 mb-16 max-w-3xl mx-auto">
+            <p class="text-xl text-center text-light mb-16 max-w-3xl mx-auto">
                 Tudo que você precisa para começar a faturar ainda esta semana!
             </p>
 
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
                     <div class="text-5xl mb-4">🎂</div>
-                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Receitas Campeãs</h3>
-                    <p class="text-gray-300">As melhores massas e recheios que vendem TODOS OS DIAS. Receitas testadas e
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Receitas Campeãs</h3>
+                    <p class="text-light">As melhores massas e recheios que vendem TODOS OS DIAS. Receitas testadas e
                         aprovadas por milhares de alunas!</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
                     <div class="text-5xl mb-4">💎</div>
-                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Técnicas Profissionais</h3>
-                    <p class="text-gray-300">Aprenda os segredos da Chef Ísis Alvarez, formada em Paris com mais de 20
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Técnicas Profissionais</h3>
+                    <p class="text-light">Aprenda os segredos da Chef Ísis Alvarez, formada em Paris com mais de 20
                         anos de experiência!</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
                     <div class="text-5xl mb-4">💰</div>
-                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Como Precificar</h3>
-                    <p class="text-gray-300">Nunca mais venda barato! Aprenda a calcular seus lucros e cobrar o valor
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Como Precificar</h3>
+                    <p class="text-light">Nunca mais venda barato! Aprenda a calcular seus lucros e cobrar o valor
                         JUSTO pelos seus bolos.</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
                     <div class="text-5xl mb-4">📱</div>
-                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Marketing Digital</h3>
-                    <p class="text-gray-300">Como vender pelo Instagram, Facebook e WhatsApp. Atraia clientes que PAGAM
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Marketing Digital</h3>
+                    <p class="text-light">Como vender pelo Instagram, Facebook e WhatsApp. Atraia clientes que PAGAM
                         BEM!</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift text-center">
                     <div class="text-5xl mb-4">🏆</div>
-                    <h3 class="text-2xl font-bold mb-4 text-yellow-400">Certificado Oficial</h3>
-                    <p class="text-gray-300">Certificado assinado pela Chef Ísis Alvarez para valorizar seu trabalho!
+                    <h3 class="text-2xl font-bold mb-4 text-primary">Certificado Oficial</h3>
+                    <p class="text-light">Certificado assinado pela Chef Ísis Alvarez para valorizar seu trabalho!
                     </p>
                 </div>
             </div>
@@ -271,7 +513,7 @@
     </div>
 
     <!-- Social Proof -->
-    <div class="py-20 bg-gray-900">
+    <div class="py-20 bg-dark">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">
                 Elas Já Estão <span class="text-gradient">Faturando Alto!</span>
@@ -280,49 +522,45 @@
             <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 <div class="glass-effect rounded-2xl p-8 hover-lift">
                     <div class="flex items-center mb-4">
-
                         <div class="ml-4">
                             <p class="font-bold">Lita Freire Freire Barbosa</p>
-                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                            <p class="text-sm star-rating">⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Já estou trabalhando com os meus potes. Muito obrigada chef isis de
+                    <p class="text-light italic">"Já estou trabalhando com os meus potes. Muito obrigada chef isis de
                         Portugal para o mundo agora não vou para não muito obrigada é pouco aprendi muita no curso
                         🥹💜❤️🙏"</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift">
                     <div class="flex items-center mb-4">
-
                         <div class="ml-4">
                             <p class="font-bold">Dani Oliveira</p>
-                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                            <p class="text-sm star-rating">⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Meus bolos no pote, vários sabores, uma delicia e muito sucesso com
+                    <p class="text-light italic">"Meus bolos no pote, vários sabores, uma delicia e muito sucesso com
                         esses bolos. Obrigada Isis por este curso maravilhoso"</p>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift">
                     <div class="flex items-center mb-4">
-
                         <div class="ml-4">
                             <p class="font-bold">Sheila Egg</p>
-                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                            <p class="text-sm star-rating">⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Aos poucos vamos quebrando barreiras, alcançando metas e objetivos.
+                    <p class="text-light italic">"Aos poucos vamos quebrando barreiras, alcançando metas e objetivos.
                         Gratidão sempre Ísis Alvarez.😘♥️"</p>
                 </div>
                 <div class="glass-effect rounded-2xl p-8 hover-lift">
                     <div class="flex items-center mb-4">
-
                         <div class="ml-4">
                             <p class="font-bold">Erica Alvez</p>
-                            <p class="text-sm text-yellow-400">⭐⭐⭐⭐⭐</p>
+                            <p class="text-sm star-rating">⭐⭐⭐⭐⭐</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Hola!! Sou do Uruguay, fronteira com RS. Amando e lucrando con os
+                    <p class="text-light italic">"Hola!! Sou do Uruguay, fronteira com RS. Amando e lucrando con os
                         bolos. Ainda muito para melhorar!!"</p>
                 </div>
             </div>
@@ -330,7 +568,7 @@
             <div class="text-center mt-12">
                 <p class="text-2xl font-bold mb-6">Você Pode Ser a Próxima História de Sucesso!</p>
                 <a href="https://go.hotmart.com/I88949011H?ap=ff80"
-                    class="inline-block bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-1xl">
+                    class="inline-block btn-cta px-12 py-6 rounded-full text-2xl font-bold hover:scale-105 transform transition-all shadow-1xl">
                     ✨ GARANTIR MINHA VAGA AGORA
                 </a>
             </div>
@@ -338,29 +576,29 @@
     </div>
 
     <!-- Bonus Section -->
-    <div class="py-20 bg-gradient-to-b from-purple-900 to-gray-900">
+    <div class="py-20 bg-gradient-purple">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold mb-6">
                     <span class="text-gradient">BÔNUS EXCLUSIVOS</span> Para Quem Age Agora!
                 </h2>
-                <p class="text-xl text-gray-300">Acelere ainda mais seus resultados com esses presentes especiais</p>
+                <p class="text-xl text-light">Acelere ainda mais seus resultados com esses presentes especiais</p>
             </div>
 
             <div class="max-w-4xl mx-auto space-y-6">
                 <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
                     <div class="text-5xl mr-6">🎁</div>
                     <div>
-                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Apostila Completa em PDF</h3>
-                        <p class="text-gray-300"> As tortas famosas das grandes confeitarias (todas em vídeo)</p>
+                        <h3 class="text-2xl font-bold mb-2 text-primary">Receitas Em vídeo das Tortas Que fazem mais sucesso!</h3>
+                        <p class="text-light"> Com apostila em PDF para acompanhar</p>
                     </div>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
                     <div class="text-5xl mr-6">👩‍💼</div>
                     <div>
-                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">E-book de Empreendedorismo</h3>
-                        <p class="text-gray-300">Informações essenciais pra você arrasar nas vendas e nas redes sociais!
+                        <h3 class="text-2xl font-bold mb-2 text-primary">E-book de Empreendedorismo</h3>
+                        <p class="text-light">Informações essenciais pra você arrasar nas vendas e nas redes sociais!
                         </p>
                     </div>
                 </div>
@@ -368,8 +606,8 @@
                 <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
                     <div class="text-5xl mr-6">🏷</div>
                     <div>
-                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Lindas Tags</h3>
-                        <p class="text-gray-300">pra você baixar e imprimir e deixar seus potes ainda mais
+                        <h3 class="text-2xl font-bold mb-2 text-primary">Lindas Tags</h3>
+                        <p class="text-light">pra você baixar e imprimir e deixar seus potes ainda mais
                             personalizados!</p>
                     </div>
                 </div>
@@ -377,42 +615,53 @@
                 <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
                     <div class="text-5xl mr-6">🚀</div>
                     <div>
-                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Confeiteira Empreendedora</h3>
-                        <p class="text-gray-300">Aprenda a montar e gerenciar seu negócio de confeitaria do zero</p>
+                        <h3 class="text-2xl font-bold mb-2 text-primary">Confeiteira Empreendedora</h3>
+                        <p class="text-light">Aprenda a montar e gerenciar seu negócio de confeitaria do zero</p>
                     </div>
                 </div>
 
                 <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
                     <div class="text-5xl mr-6">📱</div>
                     <div>
-                        <h3 class="text-2xl font-bold mb-2 text-yellow-400">Suporte via WhatsApp</h3>
-                        <p class="text-gray-300">Tire suas dúvidas diretamente com a Chef Ísis Alvarez!</p>
+                        <h3 class="text-2xl font-bold mb-2 text-primary">Suporte via WhatsApp</h3>
+                        <p class="text-light">Tire suas dúvidas diretamente com a Chef Ísis Alvarez!</p>
                     </div>
                 </div>
+
+                <div class="glass-effect rounded-2xl p-8 hover-lift flex items-center">
+                    <div class="text-5xl mr-6">📱</div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-2 text-primary">Certificado</h3>
+                        <p class="text-light">Assinado pela renomada Chef Isis Alvarez</p>
+                    </div>
+                </div>
+
+                 
             </div>
         </div>
     </div>
 
     <!-- Guarantee Section -->
-    <div class="py-20 bg-gray-900">
+    <div class="py-20 bg-dark">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="glass-effect rounded-3xl p-12 text-center hover-lift border-4 border-green-500">
+                <div class="glass-effect rounded-3xl p-12 text-center hover-lift border-4 border-success">
                     <div class="text-7xl mb-6">🛡️</div>
                     <h2 class="text-4xl font-bold mb-6">GARANTIA BLINDADA DE 7 DIAS</h2>
-                    <p class="text-xl text-gray-300 mb-8">
-                        Você tem <span class="text-yellow-400 font-bold">7 dias completos</span> para testar o curso.
-                        Se não gostar, devolvemos <span class="text-green-400 font-bold">100% do seu dinheiro</span> sem
+                    <p class="text-xl text-light mb-8">
+                        Você tem <span class="text-primary font-bold">7 dias completos</span> para testar o curso.
+                        Se não gostar, devolvemos <span class="font-bold" style="color: var(--color-success);">100% do
+                            seu dinheiro</span> sem
                         perguntas!
                     </p>
-                    <p class="text-2xl font-bold text-yellow-400">O risco é TODO NOSSO!</p>
+                    <p class="text-2xl font-bold text-primary">O risco é TODO NOSSO!</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Final CTA -->
-    <div class="py-20 bg-gradient-to-b from-gray-900 to-yellow-900">
+    <div class="py-20 bg-gradient-yellow">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-4xl md:text-6xl font-bold mb-8">
@@ -422,15 +671,15 @@
 
                 <div class="glass-effect rounded-3xl p-12 mb-12">
                     <p class="text-3xl font-bold mb-4 ">De <span class="line-through">R$ 397,00</span> por apenas:</p>
-                    <p class="text-6xl md:text-7xl font-extrabold text-yellow-400 mb-4">R$ 67,00</p>
-                    <p class="text-xl text-gray-300 mb-8">Ou parcele no cartão em até 12x</p>
+                    <p class="text-6xl md:text-7xl font-extrabold text-primary mb-4">R$ 67,00</p>
+                    <p class="text-xl text-light mb-8">Ou parcele no cartão em até 12x</p>
 
                     <a href="https://go.hotmart.com/I88949011H?ap=ff80"
-                        class="inline-block bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-gray-900 px-16 py-8 rounded-full text-3xl font-bold hover:scale-110 transform transition-all shadow-2xl animate-pulse-glow gradient-animate mb-8">
+                        class="inline-block btn-cta-animated px-16 py-8 rounded-full text-3xl font-bold hover:scale-110 transform transition-all shadow-2xl animate-pulse-glow gradient-animate mb-8">
                         🔥 GARANTIR MINHA VAGA COM DESCONTO
                     </a>
 
-                    <div class="space-y-4 text-lg text-gray-300">
+                    <div class="space-y-4 text-lg text-light">
                         <p>✅ Acesso Imediato após confirmação do pagamento</p>
                         <p>✅ Suporte via WhatsApp com a Chef Ísis</p>
                         <p>✅ Certificado de Conclusão</p>
@@ -442,13 +691,13 @@
 
                 <div class="glass-effect rounded-2xl p-8 mb-8">
                     <p class="text-2xl font-bold mb-4">⚠️ ATENÇÃO: VAGAS LIMITADAS!</p>
-                    <p class="text-xl text-gray-300">
-                        Esse preço especial é válido apenas para as primeiras <span
-                            class="text-yellow-400 font-bold">100 alunas</span> que se inscreverem hoje!
+                    <p class="text-xl text-light">
+                        Esse preço especial é válido apenas para as primeiras <span class="text-primary font-bold">100
+                            alunas</span> que se inscreverem hoje!
                     </p>
                 </div>
 
-                <p class="text-gray-400 text-sm">
+                <p class="text-lighter text-sm">
                     Pagamento 100% seguro processado pela Hotmart | Ambiente protegido com certificado SSL
                 </p>
             </div>
@@ -456,8 +705,8 @@
     </div>
 
     <!-- Footer -->
-    <div class="py-12 bg-black">
-        <div class="container mx-auto px-4 text-center text-gray-400">
+    <div class="py-12 bg-darker">
+        <div class="container mx-auto px-4 text-center text-lighter">
             <p class="mb-4">© 2025 Renda Doce - Todos os direitos reservados</p>
             <p class="text-sm">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.</p>
         </div>
