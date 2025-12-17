@@ -1,0 +1,98 @@
+/* =====================================================
+   THEME DARK (PADRÃO)
+   ===================================================== */
+.theme-dark {
+  --color-primary: #fbbf24;
+  --color-primary-dark: #f59e0b;
+  --color-secondary: #a855f7;
+  --color-accent: #10b981;
+  --color-accent-dark: #059669;
+
+  --color-bg-dark: #111827;
+  --color-bg-darker: #0f172a;
+  --color-bg-purple: #581c87;
+  --color-bg-red: #7f1d1d;
+  --color-bg-yellow: #78350f;
+
+  --color-text-light: #e5e7eb;
+  --color-text-lighter: #d1d5db;
+  --color-text-dark: #111827;
+
+  --color-danger: #ef4444;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+
+  --color-cta-from: #fbbf24;
+  --color-cta-via: #f97316;
+  --color-cta-to: #ef4444;
+
+  --opacity-glass: 0.1;
+  --opacity-glass-border: 0.2;
+  --opacity-overlay: 0.2;
+}
+
+/* =====================================================
+   THEME ROSA – EMPODERAMENTO
+   ===================================================== */
+.theme-rosa {
+  --color-primary: #ec4899;
+  --color-primary-dark: #db2777;
+  --color-secondary: #f97316;
+  --color-accent: #8b5cf6;
+  --color-accent-dark: #7c3aed;
+
+  --color-bg-dark: #fff1f2;
+  --color-bg-darker: #ffe4e6;
+  --color-bg-purple: #fae8ff;
+  --color-bg-red: #fee2e2;
+  --color-bg-yellow: #ffedd5;
+
+  --color-text-light: #881337;
+  --color-text-lighter: #9f1239;
+  --color-text-dark: #111827;
+
+  --color-danger: #dc2626;
+  --color-success: #059669;
+  --color-warning: #ea580c;
+
+  --color-cta-from: #ec4899;
+  --color-cta-via: #f97316;
+  --color-cta-to: #dc2626;
+
+  --opacity-glass: 0.85;
+  --opacity-glass-border: 0.25;
+  --opacity-overlay: 0.15;
+}
+
+/* =====================================================
+   THEME VERDE – PROSPERIDADE
+   ===================================================== */
+.theme-verde {
+  --color-primary: #059669;
+  --color-primary-dark: #047857;
+  --color-secondary: #0891b2;
+  --color-accent: #eab308;
+  --color-accent-dark: #ca8a04;
+
+  --color-bg-dark: #ecfdf5;
+  --color-bg-darker: #d1fae5;
+  --color-bg-purple: #cffafe;
+  --color-bg-red: #fef3c7;
+  --color-bg-yellow: #fef9c3;
+
+  --color-text-light: #064e3b;
+  --color-text-lighter: #065f46;
+  --color-text-dark: #111827;
+
+  --color-danger: #dc2626;
+  --color-success: #16a34a;
+  --color-warning: #ea580c;
+
+  --color-cta-from: #10b981;
+  --color-cta-via: #059669;
+  --color-cta-to: #047857;
+
+  --opacity-glass: 0.85;
+  --opacity-glass-border: 0.25;
+  --opacity-overlay: 0.15;
+}

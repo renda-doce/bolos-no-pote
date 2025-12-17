@@ -14,3 +14,6 @@
     Aprenda a transformar sua cozinha em uma alternativa prática de renda com bolos no pote."
 
 - trocar Quero faturar agora por Quero começar agora
+
+
+na parte dos 3 - 7k ele deu essa sugestão "Do primeiro pedido ao faturamento mensal"

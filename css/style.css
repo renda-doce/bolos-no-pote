@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+        
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes pulse-glow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(251, 191, 36, 0.5);
+            }
+
+            50% {
+                box-shadow: 0 0 40px rgba(251, 191, 36, 0.8);
+            }
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .animate-pulse-glow {
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        .gradient-animate {
+            background-size: 200% 200%;
+            animation: gradient-shift 3s ease infinite;
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, var(--opacity-glass));
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, var(--opacity-glass-border));
+        }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .bg-gradient-main {
+            background: linear-gradient(to bottom right, var(--color-bg-dark), var(--color-bg-purple), var(--color-bg-dark));
+        }
+
+        .bg-gradient-red {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-red));
+        }
+
+        .bg-gradient-purple {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-purple));
+        }
+
+        .bg-gradient-yellow {
+            background: linear-gradient(to bottom, var(--color-bg-dark), var(--color-bg-yellow));
+        }
+
+        .bg-dark {
+            background-color: var(--color-bg-dark);
+        }
+
+        .bg-darker {
+            background-color: var(--color-bg-darker);
+        }
+
+        .text-primary {
+            color: var(--color-primary);
+        }
+
+        .text-light {
+            color: var(--color-text-light);
+        }
+
+        .text-lighter {
+            color: var(--color-text-lighter);
+        }
+
+        .text-dark-theme {
+            color: var(--color-text-dark);
+        }
+
+        .border-danger {
+            border-color: var(--color-danger);
+        }
+
+        .border-success {
+            border-color: var(--color-success);
+        }
+
+        .btn-cta {
+            background: linear-gradient(to right, var(--color-primary), var(--color-cta-via));
+            color: var(--color-text-dark);
+        }
+
+        .btn-cta-success {
+            background: linear-gradient(to right, var(--color-accent), var(--color-accent-dark));
+            color: var(--color-text-dark);
+        }
+
+        .btn-cta-animated {
+            background: linear-gradient(to right, var(--color-cta-from), var(--color-cta-via), var(--color-cta-to));
+            color: var(--color-text-dark);
+        }
+
+        .overlay-primary {
+            background-color: var(--color-primary);
+            opacity: var(--opacity-overlay);
+        }
+
+        .overlay-secondary {
+            background-color: var(--color-secondary);
+            opacity: var(--opacity-overlay);
+        }
+
+        .star-rating {
+            color: var(--color-primary);
+        }
+
+        body {
+            color: var(--color-text-light);
+        }
