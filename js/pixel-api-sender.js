@@ -1,5 +1,5 @@
 // Exemplo de integração JavaScript
-const PIXEL_ID = '5d82a300-a335-474b-93f1-093bb154fb44';
+const PIXEL_ID = '03af56d0-f5c0-4455-bd34-7719b4b383c8';
 const API_URL = 'https://njsxezhedrldrfrowpml.supabase.co/functions/v1/meta-conversion';
 
 async function sendEvent(eventName, userData = {}) {
@@ -52,4 +52,7 @@ async function sendInitiateCheckout() {
   });
 }
 
-
+function getCookie(name) {
+  const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+  return match ? match[2] : null;
+}
